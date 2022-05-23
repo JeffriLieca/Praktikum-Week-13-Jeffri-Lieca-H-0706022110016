@@ -191,12 +191,13 @@ namespace Praktikum_Week_13_Jeffri_Lieca_H_0706022110016
                     string sqlUpdate = "update player set player_id='" + tbID.Text + "',team_number='" + numNumber.Value.ToString() + "', player_name='" + tbName.Text + "', nationality_id='" + cBNatio.SelectedValue.ToString() + "', birthdate='" + dtpBirth.Value.ToString("yyyyMMdd") + "',team_id='" + cBTeam.SelectedValue.ToString() + "' where player_id='" + ID + "'";
                     sqlCommand = new MySqlCommand(sqlUpdate, sqlConnect);
                     sqlCommand.ExecuteNonQuery();
+                    MessageBox.Show("Data sudah terupdate");
                 }
                 catch (Exception)
                 {
                     MessageBox.Show("Player ID sudah ada");
                 }
-                MessageBox.Show("Data sudah terupdate");
+                
 
                 
             }
@@ -210,6 +211,7 @@ namespace Praktikum_Week_13_Jeffri_Lieca_H_0706022110016
 
         private void buttonCancel_Click(object sender, EventArgs e)
         {
+            sqlConnect.Close();
             Application.Exit();
         }
 

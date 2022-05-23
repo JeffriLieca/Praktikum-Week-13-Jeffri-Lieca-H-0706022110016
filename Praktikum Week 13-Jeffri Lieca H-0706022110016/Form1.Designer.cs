@@ -142,7 +142,7 @@ namespace Praktikum_Week_13_Jeffri_Lieca_H_0706022110016
             // 
             this.buttonSave.Location = new System.Drawing.Point(115, 357);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(105, 23);
+            this.buttonSave.Size = new System.Drawing.Size(105, 40);
             this.buttonSave.TabIndex = 16;
             this.buttonSave.Text = "Save";
             this.buttonSave.UseVisualStyleBackColor = true;
@@ -152,7 +152,7 @@ namespace Praktikum_Week_13_Jeffri_Lieca_H_0706022110016
             // 
             this.buttonCancel.Location = new System.Drawing.Point(291, 357);
             this.buttonCancel.Name = "buttonCancel";
-            this.buttonCancel.Size = new System.Drawing.Size(105, 23);
+            this.buttonCancel.Size = new System.Drawing.Size(105, 40);
             this.buttonCancel.TabIndex = 17;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
