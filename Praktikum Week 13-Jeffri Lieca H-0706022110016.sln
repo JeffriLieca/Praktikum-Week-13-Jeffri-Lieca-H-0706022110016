@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktikum Week 13-Jeffri Lieca H-0706022110016", "Praktikum Week 13-Jeffri Lieca H-0706022110016\Praktikum Week 13-Jeffri Lieca H-0706022110016.csproj", "{CE424140-B678-4571-81E0-80F2C82E0BAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE424140-B678-4571-81E0-80F2C82E0BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE424140-B678-4571-81E0-80F2C82E0BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE424140-B678-4571-81E0-80F2C82E0BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE424140-B678-4571-81E0-80F2C82E0BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5102DB0-42CC-4D81-89C6-BFE0BB9ED111}
+	EndGlobalSection
+EndGlobal
